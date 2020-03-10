@@ -102,7 +102,7 @@ func getCitiesFromJson() -> [String] {
     
     do {
     
-        if let file = Bundle.main.url(forResource: "cityinalist", withExtension: "json") {
+        if let file = Bundle.main.url(forResource: "citylist", withExtension: "json") {
         
             let data = try Data.init(contentsOf: file)
             
